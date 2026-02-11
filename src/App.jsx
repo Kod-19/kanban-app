@@ -1,11 +1,12 @@
-import { useState } from 'react'
 import './index.css'
 import Header from './components/Header'
+import TaskCard from './components/TaskCard'
 
 function App() {
   return (
-    <div className='bg-black text-gray-300'>
+    <div className='w-[90%] mx-auto text-black'>
       <Header />
+      <TaskCard />
     </div>
   )
 }
