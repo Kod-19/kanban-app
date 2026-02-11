@@ -4,7 +4,7 @@ import TaskCard from './components/TaskCard'
 
 function App() {
   return (
-    <div className='w-[90%] mx-auto text-black'>
+    <div className='pt-8 pl-10 pr-10'>
       <Header />
       <TaskCard />
     </div>
