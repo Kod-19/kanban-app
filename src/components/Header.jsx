@@ -4,8 +4,8 @@ import todo_icon from '../assets/todo_icon.png'
 const Header = () => {
 
   const addTask = () => {
-    
-  }
+    input === '' ? alert('Please enter a task!') : setTasks([...tasks, input]) //this will add the new task to the tasks array
+  };
 
   return (
     <>
